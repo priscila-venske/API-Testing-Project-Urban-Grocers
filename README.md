@@ -50,17 +50,17 @@ Validation of adding individual or bulk products to predefined customer kits. Te
 | **P9** | Send POST request with `quantity` parameter set to `null` | [❌ FAILED](https://drive.google.com/file/d/1VKl7KN0TTJlg6NgnzibjsRfMeGmwcd-d/view?usp=drive_link) |
 | **P10**| Send POST request with `quantity` parameter set to `""` (empty) | [❌ FAILED](https://drive.google.com/file/d/1OKSx8_8uv0_jprCDl1PvPV7FPideYJWW/view?usp=drive_link) |
 | **P11**| Send POST request with `quantity` parameter set to a `"string"` value | [❌ FAILED](https://drive.google.com/file/d/1qoXYRrQ4DbEQCKbgRBAwu6-Cb8fo0JIe/view?usp=drive_link) |
-| **P12**| Send POST request with `quantity` parameter containing special characters | ❌ FAILED |
-| **P13**| Send POST request with an extremely long value for `quantity` | ❌ FAILED |
-| **P14**| Send POST request with `quantity` parameter set to a negative number | ❌ FAILED |
-| **P15**| Send POST request with an entirely empty request body | ❌ FAILED |
-| **P16**| Send POST request with an empty JSON object `{}` | ❌ FAILED |
-| **P17**| Send POST request with a JSON object containing an empty `productsList` | ❌ FAILED |
+| **P12**| Send POST request with `quantity` parameter containing special characters | [❌ FAILED](https://drive.google.com/file/d/1aWmeisenTYVjpSaQysYMa90l9XOsRD0u/view?usp=drive_link) |
+| **P13**| Send POST request with an extremely long value for `quantity` | [❌ FAILED](https://drive.google.com/file/d/1CPerRdoVyM_mrbScAoSqeIBS4CyYfyvY/view?usp=drive_link) |
+| **P14**| Send POST request with `quantity` parameter set to a negative number | [❌ FAILED](https://drive.google.com/file/d/1P1V52-sEj3N3tVQ-eXWkhzY-hAErabrf/view?usp=drive_link) |
+| **P15**| Send POST request with an entirely empty request body | [❌ FAILED](https://drive.google.com/file/d/1BAfUAuK816vdYPFo75WGhq1LY0VEUIbG/view?usp=drive_link) |
+| **P16**| Send POST request with an empty JSON object `{}` | [❌ FAILED](https://drive.google.com/file/d/1CvjTZmnWepYrBt8roxrOtvQI1CUvElS9/view?usp=drive_link) |
+| **P17**| Send POST request with a JSON object containing an empty `productsList` | [❌ FAILED](https://drive.google.com/file/d/11oZN8Z5YilMLFx2GtReEKDvV5Je9f-J4/view?usp=drive_link) |
 | **P18**| Send POST request containing exactly 30 bulk items | ✅ PASSED |
 | **P19**| Send POST request containing exactly 31 bulk items (boundary check) | ✅ PASSED |
 | **P20**| Send POST request with a kit ID different from the one originally created | ✅ PASSED |
 | **P21**| Send POST request with a kit ID containing special characters | ✅ PASSED |
-| **P22**| Send POST request with a kit ID set to a negative number | ❌ FAILED |
+| **P22**| Send POST request with a kit ID set to a negative number | [❌ FAILED](https://drive.google.com/file/d/1KAFuiHo0_TWiDKt0Zva6WhjDbc4qXaZf/view?usp=drive_link)   |
 | **P23**| Send POST request completely omitting request parameters | ✅ PASSED |
 
 ---
