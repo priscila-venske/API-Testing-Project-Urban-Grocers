@@ -41,15 +41,15 @@ Validation of adding individual or bulk products to predefined customer kits. Te
 |----|-------------------|--------|
 | **P1** | Send POST request to insert a valid item into a kit | ✅ PASSED |
 | **P2** | Send POST request to update the quantity of an existing item | ✅ PASSED |
-| **P3** | Send POST request with item ID set to `null` | ❌ FAILED |
-| **P4** | Send POST request with item ID set to `" "` (empty string) | ❌ FAILED |
-| **P5** | Send POST request with item ID set to a `"string"` type value | ❌ FAILED |
-| **P6** | Send POST request with item ID containing special characters | ❌ FAILED |
-| **P7** | Send POST request with an extremely long integer value for item ID | ❌ FAILED |
-| **P8** | Send POST request with item ID set to a negative integer | ❌ FAILED |
-| **P9** | Send POST request with `quantity` parameter set to `null` | ❌ FAILED |
-| **P10**| Send POST request with `quantity` parameter set to `""` (empty) | ❌ FAILED |
-| **P11**| Send POST request with `quantity` parameter set to a `"string"` value | ❌ FAILED |
+| **P3** | Send POST request with item ID set to `null` | [❌ FAILED](https://drive.google.com/file/d/1XO5lyzjgXGrX54IxyoTWbO7hnErzV_5D/view?usp=drive_link) |
+| **P4** | Send POST request with item ID set to `" "` (empty string) | [❌ FAILED](https://drive.google.com/file/d/1rz5vhwfcXchMPzMpjJRNR3kzaho7IjmK/view?usp=drive_link) |
+| **P5** | Send POST request with item ID set to a `"string"` type value | [❌ FAILED](https://drive.google.com/file/d/1E1hmD7-xupFwgvG3CXYkBI5kyWc-v2i2/view?usp=drive_link) |
+| **P6** | Send POST request with item ID containing special characters | [❌ FAILED](https://drive.google.com/file/d/1DGN_20MZ3VgvfEgH6AgGBXck0HT531Uz/view?usp=drive_link) |
+| **P7** | Send POST request with an extremely long integer value for item ID | [❌ FAILED](https://drive.google.com/file/d/1hM70oLlylDtnWVtDwLweRg4WntOf4Ssl/view?usp=drive_link) |
+| **P8** | Send POST request with item ID set to a negative integer | [❌ FAILED](https://drive.google.com/file/d/1GLZ8e4zXSqAhDg088UW78Q2pZ2tjg99a/view?usp=drive_link) |
+| **P9** | Send POST request with `quantity` parameter set to `null` | [❌ FAILED](https://drive.google.com/file/d/1VKl7KN0TTJlg6NgnzibjsRfMeGmwcd-d/view?usp=drive_link) |
+| **P10**| Send POST request with `quantity` parameter set to `""` (empty) | [❌ FAILED](https://drive.google.com/file/d/1OKSx8_8uv0_jprCDl1PvPV7FPideYJWW/view?usp=drive_link) |
+| **P11**| Send POST request with `quantity` parameter set to a `"string"` value | [❌ FAILED](https://drive.google.com/file/d/1qoXYRrQ4DbEQCKbgRBAwu6-Cb8fo0JIe/view?usp=drive_link) |
 | **P12**| Send POST request with `quantity` parameter containing special characters | ❌ FAILED |
 | **P13**| Send POST request with an extremely long value for `quantity` | ❌ FAILED |
 | **P14**| Send POST request with `quantity` parameter set to a negative number | ❌ FAILED |
