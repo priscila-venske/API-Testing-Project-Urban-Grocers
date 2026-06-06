@@ -137,10 +137,17 @@ The high percentage of `FAILED` scenarios highlights critical security and excep
 
 ---
 
+## 👤 Author
+Project logged and curated as part of Quality Assurance Engineering & Platform API Validation practices.
+
+---
+
 ## ✅ Assignment Approved
 [Project Approval](https://drive.google.com/file/d/1IkzvNNxRluVvpqbgJQPiBWHj-uXUayX5/view?usp=drive_link)
 
 ---
 
-## 👤 Author
-Project logged and curated as part of Quality Assurance Engineering & Platform API Validation practices.
+## 📄 Licença
+Este repositório é de uso educacional. Os dados e capturas de tela pertencem ao ambiente de testes do curso.
+
+
