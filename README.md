@@ -147,7 +147,8 @@ Project logged and curated as part of Quality Assurance Engineering & Platform A
 
 ---
 
-## 📄 Licença
-Este repositório é de uso educacional. Os dados e capturas de tela pertencem ao ambiente de testes do curso.
+## 📄 License
+ 
+This repository is for educational use. The data and screenshots belong to the course's testing environment..
 
 
